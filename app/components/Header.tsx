@@ -5,7 +5,7 @@ const Header = () => {
   return (
     // "fixed top-0 left-0 w-full bg-white text-gray-600 body-font shadow-md z-50"
     <header className="fixed top-0 left-0 w-full  text-gray-600 body-font">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <div className="container mx-auto flex flex-wrap p-10 flex-col md:flex-row items-center">
         <Link href="/" legacyBehavior>
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <svg
@@ -22,15 +22,15 @@ const Header = () => {
                 fill="currentColor"
               />
             </svg>
-            <span className="ml-3 text-xl">asa's portfolio</span>
+            <span className="ml-5 text-xl">asa's portfolio</span>
           </a>
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center hidden md:flex">
           <Link href="/about" legacyBehavior>
-            <a className="mr-5 hover:text-gray-900 custom-mr-5">about</a>
+            <a className="mr-5 hover:text-gray-900 custom-mr-5">About</a>
           </Link>
-          <Link href="/contact" legacyBehavior>
-            <a className="mr-5 hover:text-gray-900 custom-mr-5">contact</a>
+          <Link href="/Works" legacyBehavior>
+            <a className="mr-5 hover:text-gray-900 custom-mr-5">Works</a>
           </Link>
         </nav>
         <Link href={"https://github.com/asasakk"}>
