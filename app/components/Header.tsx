@@ -4,7 +4,7 @@ import "../styles/style.css";
 const Header = () => {
   return (
     // "fixed top-0 left-0 w-full bg-white text-gray-600 body-font shadow-md z-50"
-    <header className="fixed top-0 left-0 w-full  text-gray-600 body-font">
+    <header className="sm:fixed top-0 left-0 w-full  text-gray-600 body-font">
       <div className="container mx-auto flex flex-wrap p-10 flex-col md:flex-row items-center">
         <Link href="/" legacyBehavior>
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
