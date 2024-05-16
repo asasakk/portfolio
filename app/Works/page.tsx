@@ -1,20 +1,58 @@
 import Image from "next/image";
 import Link from "next/link";
 import Layout from "../components/Layout";
-import localImage from "./test.jpg"; 
-import youtubeImage from "./yt.png"; 
-import rsImage from "./rs.png"; 
-import v2iImage from "./v2i.png";
-import arduinoImage from "./arduino.png"; 
+import localImage from "./img/test.jpg"; 
+import youtubeImage from "./img/yt.png"; 
+import rsImage from "./img/rs.png"; 
+import v2iImage from "./img/v2i.png";
+import arduinoImage from "./img/arduino.png"; 
+import accImage from "./img/acc.png"; 
+import humanImage from "./img/human.png"; 
+import portImage from "./img/port.png"; 
 
 const items = [
-  { id: 1, title: "Youtube Downloader", image: youtubeImage, link: "#" },
-  { id: 2, title: "RelativeStrength-Calc", image: rsImage, link: "#" },
-  { id: 3, title: "Video to Image", image: v2iImage, link: "#" },
-  { id: 4, title: "ObjectDetectionArduinoController", image: arduinoImage, link: "#",},
-  { id: 5, title: "AccelerometerMusicPlayer", image: localImage, link: "#" },
-  { id: 6, title: "Human Detection.js", image: localImage, link: "#" },
-  { id: 7, title: "Portfolio", image: localImage, link: "#" },
+  {
+    id: 1,
+    title: "Youtube Downloader",
+    image: youtubeImage,
+    link: "https://github.com/asasakk/youtube-dl",
+  },
+  {
+    id: 2,
+    title: "RelativeStrength-Calc",
+    image: rsImage,
+    link: "https://github.com/asasakk/youtube-dl",
+  },
+  {
+    id: 3,
+    title: "Video to Image",
+    image: v2iImage,
+    link: "https://github.com/asasakk/ObjectDetectionArduinoController",
+  },
+  {
+    id: 4,
+    title: "ObjectDetectionArduinoController",
+    image: arduinoImage,
+    link: "https://github.com/asasakk/ObjectDetectionArduinoController",
+  },
+  {
+    id: 5,
+    title: "AccelerometerMusicPlayer",
+    image: accImage,
+    link: "https://github.com/asasakk/AccelerometerMusicPlayer",
+  },
+  {
+    id: 6,
+    title: "Human Detection.js",
+    image: humanImage,
+    link: "https://github.com/asasakk/human-detection.js",
+  },
+  {
+    id: 7,
+    title: "Portfolio",
+    image: portImage,
+    link: "https://github.com/asasakk/portfolio",
+  },
 ];
 
 export default function Works() {
