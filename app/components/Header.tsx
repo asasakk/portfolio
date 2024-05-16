@@ -3,7 +3,6 @@ import "../styles/style.css";
 
 const Header = () => {
   return (
-    // "fixed top-0 left-0 w-full bg-white text-gray-600 body-font shadow-md z-50"
     <header className="sm:fixed top-0 left-0 w-full  text-gray-600 body-font">
       <div className="container mx-auto flex flex-wrap p-10 flex-col md:flex-row items-center">
         <Link href="/" legacyBehavior>
@@ -22,7 +21,7 @@ const Header = () => {
                 fill="currentColor"
               />
             </svg>
-            <span className="ml-5 text-xl">asa&#39;s portfolio</span>
+            <span className="ml-5 text-xl">asa&apos;s portfolio</span>
           </a>
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center hidden md:flex">
