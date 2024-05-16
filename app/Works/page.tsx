@@ -1,19 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
 import Layout from "../components/Layout";
-import localImage from "./test.jpg"; // publicフォルダ内の画像を正しくインポート
+import localImage from "./test.jpg"; 
+import youtubeImage from "./yt.png"; 
+import rsImage from "./rs.png"; 
+import v2iImage from "./v2i.png";
+import arduinoImage from "./arduino.png"; 
 
 const items = [
-  { id: 1, title: "Title 1", image: localImage, link: "#" },
-  { id: 2, title: "Title 2", image: localImage, link: "#" },
-  { id: 3, title: "Title 3", image: localImage, link: "#" },
-  { id: 4, title: "Title 4", image: localImage, link: "#" },
-  { id: 5, title: "Title 5", image: localImage, link: "#" },
-  { id: 6, title: "Title 6", image: localImage, link: "#" },
-  { id: 7, title: "Title 7", image: localImage, link: "#" },
-  { id: 8, title: "Title 8", image: localImage, link: "#" },
-  { id: 9, title: "Title 9", image: localImage, link: "#" },
-  { id: 10, title: "Title 10", image: localImage, link: "#" },
+  { id: 1, title: "Youtube Downloader", image: youtubeImage, link: "#" },
+  { id: 2, title: "RelativeStrength-Calc", image: rsImage, link: "#" },
+  { id: 3, title: "Video to Image", image: v2iImage, link: "#" },
+  { id: 4, title: "ObjectDetectionArduinoController", image: arduinoImage, link: "#",},
+  { id: 5, title: "AccelerometerMusicPlayer", image: localImage, link: "#" },
+  { id: 6, title: "Human Detection.js", image: localImage, link: "#" },
+  { id: 7, title: "Portfolio", image: localImage, link: "#" },
 ];
 
 export default function Works() {
