@@ -12,7 +12,7 @@ export default function Home() {
       <Link href="/about" legacyBehavior>
         <a className="pt-8 hover:text-gray-900 custom-mr-5">About me</a>
       </Link>
-      <Link href="/Works" legacyBehavior>
+      <Link href="/works" legacyBehavior>
         <a className="pt-8 hover:text-gray-900 custom-mr-5">Works</a>
       </Link>
     </main>

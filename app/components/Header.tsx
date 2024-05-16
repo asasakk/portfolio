@@ -29,7 +29,7 @@ const Header = () => {
           <Link href="/about" legacyBehavior>
             <a className="mr-5 hover:text-gray-900 custom-mr-5">About</a>
           </Link>
-          <Link href="/Works" legacyBehavior>
+          <Link href="/works" legacyBehavior>
             <a className="mr-5 hover:text-gray-900 custom-mr-5">Works</a>
           </Link>
         </nav>
