@@ -1,6 +1,8 @@
 import Link from "next/link";
 import "../styles/style.css";
 
+const text = "asa's portfolio";
+
 const Header = () => {
   return (
     // "fixed top-0 left-0 w-full bg-white text-gray-600 body-font shadow-md z-50"
@@ -22,7 +24,7 @@ const Header = () => {
                 fill="currentColor"
               />
             </svg>
-            <span className="ml-5 text-xl">asa s portfolio</span>
+            <span className="ml-5 text-xl">{text}</span>
           </a>
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center hidden md:flex">
