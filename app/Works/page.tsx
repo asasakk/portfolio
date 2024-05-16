@@ -10,6 +10,10 @@ const items = [
   { id: 4, title: "Title 4", image: localImage, link: "#" },
   { id: 5, title: "Title 5", image: localImage, link: "#" },
   { id: 6, title: "Title 6", image: localImage, link: "#" },
+  { id: 7, title: "Title 7", image: localImage, link: "#" },
+  { id: 8, title: "Title 8", image: localImage, link: "#" },
+  { id: 9, title: "Title 9", image: localImage, link: "#" },
+  { id: 10, title: "Title 10", image: localImage, link: "#" },
 ];
 
 export default function Works() {
@@ -17,7 +21,7 @@ export default function Works() {
     <Layout>
       <main className="flex min-h-screen flex-col items-center justify-between p-8 sm:p-12 md:p-16 lg:p-24 xl:p-48">
         <p className="mt-16 sm:mt-20 md:mt-24 lg:mt-28 xl:mt-32">Works</p>
-        <div className="gap-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-12">
+        <div className="gap-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-12">
           {items.map((item) => (
             <Link href={item.link} key={item.id}>
               <div className="w-full h-auto">
