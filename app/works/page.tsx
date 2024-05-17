@@ -59,7 +59,9 @@ export default function Works() {
   return (
     <Layout>
       <main className="flex min-h-screen flex-col items-center justify-between p-8 sm:p-12 md:p-16 lg:p-24 xl:p-48">
-        <p className="mt-16 sm:mt-20 md:mt-24 lg:mt-28 xl:mt-32">Works</p>
+        <div className="mt-16 sm:mt-20 md:mt-24 lg:mt-28 xl:mt-32">
+          <h1 className="text-[min(13vw,100px)]">Works</h1>
+        </div>
         <div className="gap-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-12">
           {items.map((item) => (
             <Link href={item.link} key={item.id}>
