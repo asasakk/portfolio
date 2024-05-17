@@ -21,13 +21,13 @@ const items = [
     id: 2,
     title: "RelativeStrength-Calc",
     image: rsImage,
-    link: "https://github.com/asasakk/youtube-dl",
+    link: "https://github.com/asasakk/Relative-Strength-calc",
   },
   {
     id: 3,
     title: "Video to Image",
     image: v2iImage,
-    link: "https://github.com/asasakk/ObjectDetectionArduinoController",
+    link: "https://github.com/asasakk/video2img",
   },
   {
     id: 4,
