@@ -1,4 +1,6 @@
-
+header a{
+  font-size: large;
+}
 
 a {
   display: inline-block;
@@ -6,6 +8,7 @@ a {
   overflow: hidden;
   color: #000000;
   text-decoration: none;
+  font-size: large;
 }
 
 a:after {
@@ -24,29 +27,6 @@ a:hover:after {
   transform: translate(0, 0);
 }
 
-/* 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
+h1{
+  font-family: 'Courier New', Courier, monospace;
 }
-
-.nav {
-  display: flex;
-}
-
-.button {
-  display: inline-block;
-}
-
-/* スマートフォンの画面でnav要素とボタンを非表示にする */
-/* @media (max-width: 768px) {
-  .nav {
-    display: none;
-  }
-
-  .button {
-    display: none;
-  }
-} */
