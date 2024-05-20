@@ -59,7 +59,7 @@ const items = [
   },
   {
     id: 8,
-    title: "rename",
+    title: "Rename_Tool_GUI",
     image: renameImage,
     link: "https://github.com/asasakk/easy_rename_tool/",
   },
