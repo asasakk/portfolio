@@ -22,8 +22,15 @@ export default function About() {
           </div>
           <div className="flex flex-col justify-center items-center text-center">
             <p className="text-lg sm:text-xl md:text-2xl">
-              こんにちは！私は[あなたの名前]です。ウェブ開発者として、多くのプロジェクトに携わってきました。私のポートフォリオをご覧いただきありがとうございます。
+              こんにちは！私のポートフォリオをご覧いただきありがとうございます。私は現在、Web業界で活躍するため、技術を磨いています！
             </p>
+            <div>
+              <p className="mt-4 text-base sm:text-lg md:text-xl">
+                開発経験のある言語は
+                主にPython,JavaScriptなどです！
+                現在はAtCoderのため、C++を勉強中です！
+              </p>
+            </div>
           </div>
         </div>
       </main>
