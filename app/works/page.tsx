@@ -12,6 +12,7 @@ import arduinoImage from "./img/arduino.png";
 import accImage from "./img/acc.png";
 import humanImage from "./img/human.png";
 import portImage from "./img/port.png";
+import renameImage from "./img/rename.png";
 
 const items = [
   {
@@ -55,6 +56,12 @@ const items = [
     title: "Portfolio",
     image: portImage,
     link: "https://github.com/asasakk/portfolio",
+  },
+  {
+    id: 8,
+    title: "rename",
+    image: renameImage,
+    link: "https://github.com/asasakk/easy_rename_tool/",
   },
 ];
 
