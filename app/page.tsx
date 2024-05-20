@@ -5,7 +5,7 @@ import "./styles/style.css";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center pt-24 md:pt-48 ">
+    <main className="flex min-h-screen flex-col items-center pt-24 md:pt-32 ">
       <div className="py-8">My Portfolio</div>
       <Image src={localImage} alt="うちのねこ" />
 
