@@ -1,14 +1,17 @@
+import React from "react";
+import { motion } from "framer-motion";
+
 import Image from "next/image";
 import Link from "next/link";
 import Layout from "../components/Layout";
-import localImage from "./img/test.jpg"; 
-import youtubeImage from "./img/yt.png"; 
-import rsImage from "./img/rs.png"; 
+import localImage from "./img/test.jpg";
+import youtubeImage from "./img/yt.png";
+import rsImage from "./img/rs.png";
 import v2iImage from "./img/v2i.png";
-import arduinoImage from "./img/arduino.png"; 
-import accImage from "./img/acc.png"; 
-import humanImage from "./img/human.png"; 
-import portImage from "./img/port.png"; 
+import arduinoImage from "./img/arduino.png";
+import accImage from "./img/acc.png";
+import humanImage from "./img/human.png";
+import portImage from "./img/port.png";
 
 const items = [
   {
@@ -76,6 +79,7 @@ export default function Works() {
             </Link>
           ))}
         </div>
+        
       </main>
     </Layout>
   );
